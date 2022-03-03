@@ -1,8 +1,9 @@
 --if(_G.BETATESTING==true)and(_G.envirement==true)and(_G.outdatedversion==false)then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/killerbrasko/Hoodshark/main/helloworld'))()		
 wait()
+_G.morphmode=false
 local hoodshark = game.CoreGui:WaitForChild("Hoodshark");
-local frame = hoodshark:FindFirstChild("Main")
+local frame = hoodshark:WaitForChild("Main")
 frame.Draggable = true
 frame.Active = true
 frame.Selectable = true
