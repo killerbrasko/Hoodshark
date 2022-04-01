@@ -1,1 +1,1 @@
-print("Hello World")
+_G.testingthing=true
